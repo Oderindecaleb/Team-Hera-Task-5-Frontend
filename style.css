@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    color: #33403d;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.join-btn {
+    font-weight: bold;
+    color: #ffffff;
+    background: #e7332b;
+    padding: 20px 60px;
+}
+
+nav {
+    height: 124px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav .logos {
+    margin-left: 60px;
+}
+
+nav .logos li {
+    margin-right: 30px;
+}
+
+nav .nav-items {
+    margin-right: 60px;
+}
+
+nav .nav-items li {
+    margin-left: 60px;
+}
+
+nav .nav-items li:last-of-type a {
+    color: #fff;
+}
+
+.nav-items .join-btn {
+    margin-left: 40px;
+}
+
+
+/* header */
+
+header {
+    height: calc(100vh - 124px);
+    background: #44d9da;
+    display: flex;
+    align-items: center;
+}
+
+header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-img {
+    position: relative;
+    padding-left: 2em;
+}
+
+.header-img img {
+    position: relative;
+    z-index: 3;
+}
+
+.header-img .img-bg {
+    position: absolute;
+    width: 371px;
+    height: 371px;
+    background: #e7332b;
+    border-radius: 50%;
+    top: 3.125rem;
+    left: 3.1875rem;
+}
+
+.header-content h1 {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 72px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.header-content p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+    margin-bottom: 76px;
+}
+
+.header-content a {
+    margin-top: 70px;
+}
+
+.total {
+    padding-top: 10em;
+    padding: 10em 10em;
+}
+
+.input_line_1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2em;
+}
+
+.name_input {
+    height: 3em;
+    width: 30em;
+}
+
+.ln_input {
+    height: 3em;
+    width: 30em;
+}
+
+.name {
+    padding-bottom: 1em;
+}
+
+.lname {
+    padding-bottom: 1em;
+}
+
+.input_line_2 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2em;
+}
+
+.email_input {
+    height: 3em;
+    width: 30em;
+}
+
+.pn_input {
+    height: 3em;
+    width: 30em;
+}
+
+.EA {
+    padding-bottom: 1em;
+}
+
+.PN {
+    padding-bottom: 1em;
+}
+
+.input_line_3 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2em;
+}
+
+.country {
+    display: flex;
+    flex-direction: column;
+}
+
+.country_1 {
+    height: 3.5em;
+    width: 30.5em;
+}
+
+.gender_1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.gender {
+    height: 3.5em;
+    width: 30.5em;
+}
+
+.CT {
+    padding-bottom: 1em;
+}
+
+.GR {
+    padding-bottom: 1em;
+}
+
+.input_line_4 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2em;
+}
+
+.age_range {
+    display: flex;
+    flex-direction: column;
+}
+
+.age_range_1 {
+    height: 3.5em;
+    width: 30.5em;
+}
+
+.track {
+    display: flex;
+    flex-direction: column;
+}
+
+.Track_1 {
+    height: 3.5em;
+    width: 30.5em;
+}
+
+.AR {
+    padding-bottom: 1em;
+}
+
+.TR {
+    padding-bottom: 1em;
+}
+
+.input_line_5 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2em;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience_1 {
+    height: 3.5em;
+    width: 30.5em;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+}
+
+.education_1 {
+    height: 3.5em;
+    width: 30.5em;
+}
+
+.ER {
+    padding-bottom: 1em;
+}
+
+.EL {
+    padding-bottom: 1em;
+}
+
+.question_1 {
+    padding-bottom: 2em;
+}
+
+.q1 {
+    height: 13em;
+    width: 100%;
+    padding-bottom: 9em;
+}
+
+.question_2 {
+    padding-bottom: 2em;
+}
+
+.q2 {
+    height: 13em;
+    width: 100%;
+    padding-bottom: 9em;
+}
+
+.ONE {
+    padding-bottom: 1em;
+}
+
+.TWO {
+    padding-bottom: 1em;
+    font
+}
+
+.buttn {
+    height: 4em;
+    width: 15em;
+    background-color: red;
+    color: white;
+    border-color: white;
+}
+
+.logo_1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 10em;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    ;
+}
+
+
+}
